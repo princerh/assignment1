@@ -95,8 +95,87 @@
     height: 500px;
     flex-shrink: 0;
 }
-#discount discount-img img{
+
+#discount discount-img img {
     width: 662.4px;
     height: 500px;
     flex-shrink: 0;
+}
+
+#welcome {
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    border-radius: 16px;
+    background-size: cover;
+    justify-content: center;
+    margin: 120px auto;
+}
+
+#welcome .welcome-container {
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+#welcome .welcome-container .welcome-banner {
+    display: flex;
+    gap: 77.69px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#welcome .welcome-container .welcome-banner .welcome-title h1 {
+    max-width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    padding: 10px 0 0;
+}
+
+#welcome .welcome-container .welcome-banner .welcome-title p {
+    max-width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-top: 24px;
+}
+
+#welcome .welcome-container .welcome-banner .welcome-year {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 68.11px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#welcome .welcome-container .welcome-banner .welcome-year img {
+    padding-top: 68.11px
+}
+
+#welcome .welcome-container .welcome-banner .welcome-title .button {
+    margin-top: 48px;
+    background-color: transparent;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 30px;
+    border: none; /* Remove button border if any */
 }
