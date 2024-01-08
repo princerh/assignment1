@@ -196,38 +196,151 @@
     color: black;
     padding-top: 100px;
 }
-#invitation .time-place p{
+
+#invitation .time-place p {
     text-align: center;
     color: #070211;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
 }
-#invitation .time-place .red{
+
+#invitation .time-place .red {
     color: #F00;
 
-text-align: center;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px; /* 175% */
-text-transform: capitalize;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
 }
-#invitation .time-place .join-button{
+
+#invitation .time-place .join-button {
     color: #FFF;
     margin-top: 48px;
     background-color: #F00;
     padding: 16px 32px;
     border: none;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#offers {
+    width: 1320px;
+    height: 482px;
+    background: #FFF;
+    margin: 120px auto;
+}
+
+#offers .offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#offers .offer-container .offer-title {
+    max-width: 393px;
+    margin-right: 70px;
+}
+
+#offers .offer-container .offer-title .offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#offers .offer-container .offer-title h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 16px 0 22px;
+}
+
+#offers .offer-container .offer-title .offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+#offers .offer-container .offer-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 463px;
+    height: 463px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+#offers .offer-container .offer-year {
+    margin-left: 118px;
+    max-width: 276px;
+}
+
+#offers .offer-container .offer-year h4 {
+    color: #F00;
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#offers .offer-container .offer-year p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-bottom: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+#offers .offer-container .offer-year img {
+    max-width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+#holiday-discount {
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+}
+
+#holiday-discount .holiday-image {
+    background-image: url('../resources/Rectangle-1.png'), url('../resources/Group-75.png');
+
+
+    width: 1320px;
+    height: 670px;
+    flex-shrink: 0;
+    /* background-image: url('../resources/Rectangle-1.png'), url('../resources/Group-75.png'); */
 }
