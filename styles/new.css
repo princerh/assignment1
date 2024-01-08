@@ -15,7 +15,10 @@
     flex-shrink: 0;
 
 }
-
+#banner-container:hover{
+    border: 5px solid rgb(50, 221, 255);
+    
+}
 #banner-container .banner-greeting {
     color: #FFF;
     padding-top: 177px;
@@ -246,13 +249,14 @@
 #offers .offer-container {
     display: flex;
     align-items: center;
+    gap:70px;
     justify-content: space-between;
 
 }
 
 #offers .offer-container .offer-title {
     max-width: 393px;
-    margin-right: 70px;
+    margin-right: auto;
 }
 
 #offers .offer-container .offer-title .offer {
@@ -285,19 +289,45 @@
     /* 160% */
 }
 
-#offers .offer-container .offer-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 463px;
-    height: 463px;
-    border: 10px solid red;
+/* #offers .offer-container .offer-image:hover{
+    border: 5px solid blue;
+    
+    border-radius: 50%;
+} */
+#offers .offer-container .offer-hover-image:hover {
+    border: 5px solid blue;
     border-radius: 50%;
 }
 
+#offers .offer-container .offer-hover-image .offer-image {
+    border: 15px solid red;
+    border-radius: 50%;
+
+    padding: 20px;
+}
+
+/* #offers .offer-container .offer-image img:hover{
+    border: 4px solid blue; */
+}
+
+.circular-image:hover {
+    border: 5px solid green;
+}
+
+.circular-image {
+    padding: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#offers .offer-container .offer-hover-image .offer-image img {
+    width: 364.844px;
+height: 364.844px;
+}
+
+
 #offers .offer-container .offer-year {
-    margin-left: 118px;
+    margin-left: auto;
     max-width: 276px;
 }
 
@@ -336,11 +366,198 @@
 }
 
 #holiday-discount .holiday-image {
-    background-image: url('../resources/Rectangle-1.png'), url('../resources/Group-75.png');
-
-
+    background-image: url('../resources/Rectangle-1.png'), url('../resources/Rectangle-2.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-position: top right, bottom;
+    display: flex;
+    
+    align-items: end;
     width: 1320px;
     height: 670px;
     flex-shrink: 0;
     /* background-image: url('../resources/Rectangle-1.png'), url('../resources/Group-75.png'); */
 }
+
+
+#holiday-discount .holiday-title{
+ text-align: center;
+}
+
+#holiday-discount .holiday-title strong{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#holiday-discount .holiday-title h2{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#holiday-discount .holiday-title p{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+max-width: 1068px;
+margin: 28px 266px 64px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+#holiday-discount .holiday-title .holiday-description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+
+#portfolio{
+    margin: 120px auto;
+    max-width: 1320px;
+}
+
+#portfolio .portfolio-container{
+    
+}
+
+#portfolio .portfolio-container .title{
+    
+}
+#portfolio .portfolio-container .title strong{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+#portfolio .portfolio-container .title h3{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+#portfolio .portfolio-container .title p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-bottom: 48px;
+}
+#portfolio .portfolio-container .images{
+    
+}
+#portfolio .portfolio-container .images .images1{
+    display: flex;
+}
+
+
+.first-row {
+    width: 424px;
+height: 450px;
+flex-shrink: 0;
+padding: 5px;
+border-radius: 20px;
+}
+
+.first-row:hover{
+    border: 2px solid red;
+}
+
+#newsletter{
+    width: 1320px;
+height: 616px;
+flex-shrink: 0;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin: 120px auto;
+text-align: center;
+}
+#newsletter img{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+#newsletter h1{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+#newsletter p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin: 0 auto 48px;
+}
+#newsletter .news-form{
+    margin: 0 336px 80px;
+}
+form{
+    max-width: 648px;
+height: 72px;
+flex-shrink: 0;
+display: flex;
+padding: 0 336px;
+}
+
+form input{
+    width: 648px;
+flex-shrink: 0;
+background: #FFF;
+padding: 5px;
+border: none;
+}
+button{
+    width: 210px;
+    padding: 20px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+background: #F00;
+padding: 23px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+/* .btn{
+    background: red;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 15px 28px;
+} */
