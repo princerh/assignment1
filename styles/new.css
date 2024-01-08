@@ -10,7 +10,7 @@
     border-radius: 16px;
     background-size: cover;
     justify-content: center;
-    margin: 50px auto 120px;
+    margin: 50px auto 0px;
     height: 600px;
     flex-shrink: 0;
 
@@ -30,15 +30,73 @@
     font-weight: 400;
     line-height: normal;
 }
-#banner-container .banner-greeting h2{
-    font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;width: 632px;
-max-width: 521.4px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 16px;
-padding: 16px;
 
+#banner-container .banner-greeting h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    width: 632px;
+    max-width: 521.4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    padding: 16px;
+
+}
+
+#discount {
+    max-width: 662.4px;
+    width: 100%;
+    margin: 120px auto 120px;
+}
+
+#discount .discount-container {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+#discount .discount-container h2 {
+    font-size: 72.6px;
+    padding: 20px 0;
+}
+
+#discount .discount-title p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#discount .discount-title h3 {
+    margin-top: 16px;
+
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 39.6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 0;
+    margin-bottom: 48px;
+}
+
+#discount discount-img {
+    width: 662.4px;
+    height: 500px;
+    flex-shrink: 0;
+}
+#discount discount-img img{
+    width: 662.4px;
+    height: 500px;
+    flex-shrink: 0;
 }
